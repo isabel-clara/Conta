@@ -16,4 +16,9 @@ public class Conta {
 		return (valor<=this.saldo);
 	}
 	
+	
+	public String toString(){
+		return "O saldo é"+this.saldo";
+	}
+	
 }
